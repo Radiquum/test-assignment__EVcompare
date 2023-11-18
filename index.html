@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ru" class="html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVcompare.io</title>
+    <link rel="stylesheet" href="https://radiquum.github.io/tools/web/reset.css">
+    <link rel="stylesheet" href="static/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="body">
+    
+    <header class="header">
+        <div class="header__content _items_flex">
+            <div class="header_position_left _items_flex">
+                <div class="header__logo"> 
+                    <a href="/"><img class="header__logo-image" src="static/images/logo.png" alt="Главная страница"></a>
+                </div>
+                <div class="header__search"> 
+                    <img class="header__search-icon" src="static/images/icons/search.svg" alt="">
+                    <input class="header__search-input" type="text" placeholder="Найдите ваш электромобиль">
+                </div>
+            </div>
+            <div class="header__navigation header_position_right _items_flex"> 
+                <button class="header__navigation-button" data-tablet><img class="header__navigation-icon" src="static/images/icons/search_tablet.svg" alt="Поиск"></button>
+                <a class="header__navigation-link" href="#" target="_blank" data-pc><img class="header__navigation-icon" src="static/images/icons/cabinet.svg" alt="Личный кабинет"></a>
+                <a class="header__navigation-link" href="#" target="_blank" data-pc><img class="header__navigation-icon" src="static/images/icons/charge_calculator.svg" alt="Калькулятор заряда"></a>
+                <a class="header__navigation-link" href="#" target="_blank" data-pc><img class="header__navigation-icon" src="static/images/icons/comparison.svg" alt="Сравнение"></a>
+                <a class="header__navigation-link" href="#" target="_blank" data-pc><img class="header__navigation-icon" src="static/images/icons/side_menu.svg" alt="Боковое меню"></a>
+                <button class="header__navigation-button" data-phone><img class="header__navigation-icon" src="static/images/icons/search_mobile.svg" alt="Поиск"></button>
+                <a class="header__navigation-link" href="#" target="_blank" data-phone><img class="header__navigation-icon" src="static/images/icons/comparison_mobile.svg" alt="Сравнение"></a>
+                <a class="header__navigation-link" href="#" target="_blank" data-phone><img class="header__navigation-icon" src="static/images/icons/side_menu_mobile.svg" alt="Боковое меню"></a>
+            </div>
+        </div>
+        <hr class="devider header__devider">
+    </header>
+
+    <main class="main">
+
+        <div class="breadcrumps _items_flex"> 
+            <a class="breadcrumps__link" href="/">Main Page</a>
+            <img class="breadcrumps__arrow" src="static/images/icons/breadcrumps_arrow.svg" alt="">
+            <a class="breadcrumps__link" href="#">Новости и анонсы</a>
+            <hr class="devider breadcrumps__devider">
+        </div>
+
+        <div class="subtitle">
+            <div class="subtitle__content _items_flex">
+                <a class="subtitle__button" href="#" data-phone><img class="subtitle__button-image" src="static/images/icons/back_button.svg" alt="Назад"></a>
+                <h2 class="subtitle__text">Новости и анонсы</h2>
+            </div>
+            <hr class="devider subtitle__devider data-phone">
+        </div>
+
+        <div class="news">
+            <div class="card">
+                <img class="card__image" src="static/images/news/Volkswagen_ID4.png" alt="">
+                <div class="card__transition"></div>
+                <h3 class="card__title">Volkswagen ID.4: первый серийный кроссовер марки на батарейках</h3>
+                <p class="card__text" data-pc>К дебюту этого автомобиля марка готовилась три года — уже с момента презентации концепта ID.Crozz было понятно, что в скором времени линейка электрокаров пополнится кроссовером ... </p>
+                <p class="card__text" data-phone>К дебюту этого автомобиля марка готовилась три года — уже с момента презентации концепта ID.Crozz было понятно ... </p>
+                <div class="card__footer _items_flex">
+                    <p class="card__footer-author">Сергей Иванов</p>
+                    <p class="card__footer-date">3 часа назад</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="card__image" src="static/images/news/Tesla Roadster.jpg" alt="">
+                <div class="card__transition"></div>
+                <h3 class="card__title">Tesla Roadster получит колеса как в Формуле 1</h3>
+                <p class="card__text" data-pc>Похоже, Илон Маск решил собрать в новом спорткаре Tesla Roadster все возможные необычные технические решения. Мы уже писали, что этот автомобиль получит опционные ... </p>
+                <p class="card__text" data-phone>Похоже, Илон Маск решил собрать в новом спорткаре Tesla Roadster все возможные необычные технические решения ... </p>
+                <div class="card__footer _items_flex">
+                    <p class="card__footer-author">Сергей Иванов</p>
+                    <p class="card__footer-date">5 часов назад</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="card__image" src="static/images/news/Lucid Air.png" alt="">
+                <div class="card__transition"></div>
+                <h3 class="card__title">Lucid Air сможет заряжаться быстрее всех</h3>
+                <p class="card__text" data-pc>Компания Lucid Motors раскрыла подробности о зарядке своего электрокара Air. Этот седан сможет заряжаться током с напряжением более 900 вольт, что станет рекордом для современных ... </p>
+                <p class="card__text" data-phone>Компания Lucid Motors раскрыла подробности о зарядке своего электрокара Air. Этот седан сможет заряжаться током с напряжением ... </p>
+                <div class="card__footer _items_flex">
+                    <p class="card__footer-author">Сергей Иванов</p>
+                    <p class="card__footer-date">19 августа 2020</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="card__image" src="static/images/news/Porsche Taycan.png" alt="">
+                <div class="card__transition"></div>
+                <h3 class="card__title">Porsche слегка улучшил Taycan</h3>
+                <p class="card__text" data-pc>Компания Porsche рассказала об электрокаре Taycan 2021 модельного года, который поступит в продажу в сентябре. Машина получила минимальные обновления ... </p>
+                <p class="card__text" data-phone>Компания Porsche рассказала об электрокаре Taycan 2021 модельного года, который поступит в продажу в сентябре ... </p>
+                <div class="card__footer _items_flex">
+                    <p class="card__footer-author">Сергей Иванов</p>
+                    <p class="card__footer-date">19 августа 2020</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="card__image" src="static/images/news/Volvo.png" alt="">
+                <div class="card__transition"></div>
+                <h3 class="card__title">В Volvo попытались доказать превосходство над Tesla. Получилось не очень</h3>
+                <p class="card__text" data-pc>Шведская марка Polestar, которая принадлежит концерну Volvo, организовала в США тест электромобилей на запас хода с целью доказать, что их седан Polestar 2 имеет преимущество ...</p>
+                <p class="card__text" data-phone>Шведская марка Polestar, которая принадлежит концерну Volvo, организовала в США тест электромобилей на запас хода ...</p>
+                <div class="card__footer _items_flex">
+                    <p class="card__footer-author">Сергей Иванов</p>
+                    <p class="card__footer-date">3 часа назад</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="card__image" src="static/images/news/Tesla Battaries.png" alt="">
+                <div class="card__transition"></div>
+                <h3 class="card__title">Новые аккумуляторы Tesla подойдут самолетам</h3>
+                <p class="card__text" data-pc>Группа сотрудников канадского исследовательского центра Tesla опубликовала в журнале Nature научную статью о своих успехах в создании литий-металлических аккумуляторов ...</p>
+                <p class="card__text" data-phone>Группа сотрудников канадского исследовательского центра Tesla опубликовала в журнале Nature научную статью ...</p>
+                <div class="card__footer _items_flex">
+                    <p class="card__footer-author">Сергей Иванов</p>
+                    <p class="card__footer-date">5 часа назад</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="card__image" src="static/images/news/Cadillac.png" alt="">
+                <div class="card__transition"></div>
+                <h3 class="card__title">Cadillac Lyriq будет неожиданно дешевым</h3>
+                <p class="card__text" data-pc>На прошлой неделе концерн General Motors представил серийную версию электрического кроссовера Cadillac Lyriq, который, в сравнении с Tesla Model X, показался нам хорошей машиной ...</p>
+                <p class="card__text" data-phone>На прошлой неделе концерн General Motors представил серийную версию электрического кроссовера Cadillac Lyriq ...</p>
+                <div class="card__footer _items_flex">
+                    <p class="card__footer-author">Сергей Иванов</p>
+                    <p class="card__footer-date">19 августа 2020</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="card__image" src="static/images/news/FormulaE.png" alt="">
+                <div class="card__transition"></div>
+                <h3 class="card__title">В Формуле Е новый чемпион</h3>
+                <p class="card__text" data-pc>Антониу Феликс да Кошта финишировал вторым в четвертой из шести гонок в Берлине, которые завершают очередной сезон Формулы Е  Благодаря этому спортсмен стал недосягаем ...</p>
+                <p class="card__text" data-phone>Антониу Феликс да Кошта финишировал вторым в четвертой из шести гонок в Берлине ...</p>
+                <div class="card__footer _items_flex">
+                    <p class="card__footer-author">Сергей Иванов</p>
+                    <p class="card__footer-date">19 августа 2020</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="pagination _items_flex">
+            <p class="pagination-page pagination-page_current" >1</p>
+            <p class="pagination-page" >2</p>
+            <p class="pagination-page" >3</p>
+            <p class="pagination-page" >4</p>
+            <p class="pagination-page" >...</p>
+            <p class="pagination-page" >10</p>
+        </div>
+    </main>
+</body>
+</html>
